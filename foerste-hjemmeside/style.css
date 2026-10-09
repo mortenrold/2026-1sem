@@ -4,6 +4,11 @@ h1 {
     font-size: 100px;
     letter-spacing: -3px;
     text-shadow: 4px -4px 4px rgba(0, 0, 0, 0.501);
+    border: 1px dashed black;
+    padding: 40px;
+    padding-top: 300px;
+    margin: 50px;
+    margin-left: 200px;
 }
 p {
     color: whitesmoke;
@@ -13,6 +18,7 @@ p {
     /* 150% svarer til halvanden linjeafstand */
     line-height: 150%;
     text-transform: uppercase;
+    padding-right: 400px;
 } 
 body {
     background-color: rgb(214, 193, 234);
@@ -34,7 +40,23 @@ a:hover {
     font-weight: bold;
     letter-spacing: 4px;
     background-color: blue;
+    margin-left: 30px;
 }
 a:active {
     color: red;
+}
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#kirsten {
+    text-decoration: underline;
+}
+.min-kasse {
+    background-color: lightgrey;
+    padding: 25px;
+}
+.min-kasse p {
+    column-count: 2;
+    column-gap: 30px;
 }
