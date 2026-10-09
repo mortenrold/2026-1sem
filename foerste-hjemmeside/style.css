@@ -1,0 +1,40 @@
+h1 {
+    font-family: "Creepster", system-ui;
+    color: rgb(225, 16, 16);
+    font-size: 100px;
+    letter-spacing: -3px;
+    text-shadow: 4px -4px 4px rgba(0, 0, 0, 0.501);
+}
+p {
+    color: whitesmoke;
+    font-family: system-ui;
+    font-size: 1.2em;
+    text-align: justify;
+    /* 150% svarer til halvanden linjeafstand */
+    line-height: 150%;
+    text-transform: uppercase;
+} 
+body {
+    background-color: rgb(214, 193, 234);
+    background-image: url("images/hund.jpg");
+    background-size: cover;
+}
+a {
+    color: brown;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 4px;
+    background-color: blue;
+}
+a:active {
+    color: red;
+}
