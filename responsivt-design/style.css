@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo, .navigation, .undermenu, article, .banner, footer {
+    margin: 1%;
+    padding: 1%;
+}
+.logo {
+    background: lightblue;
+    height: 60px;
+}
+.navigation {
+    background: lightcoral;
+    height: 60px;
+}
+.undermenu {
+    background: lightseagreen;
+    display: none;
+}
+article {
+    background: lightgoldenrodyellow;
+    height: 800px;
+}
+.banner {
+    background: hotpink;
+    display: none;
+}
+footer {
+    background: lightgray;
+    height: 100px;
+}
+
+/* CSS til medium skærme (fx tablets) */
+@media screen and (min-width: 819px) {
+    footer {
+        background: green;
+        width: 96%;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo {
+        width: 21%;
+    }
+    .navigation {
+        width: 71%;
+    }
+    .undermenu {
+        display: block;
+        width: 21%;
+    }
+    article {
+        width: 71%;
+    }
+}
+
+/* CSS til store skærme (desktop) */
+@media screen and (min-width: 1129px) {
+    .banner {
+        display: block;
+        width: 21%;
+    }
+    article {
+        width: 46%;
+    }
+}
+
+/* stopklods */
+@media screen and (min-width: 1429px) {
+    .container {
+        width: 1429px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
