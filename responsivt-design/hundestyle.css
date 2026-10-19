@@ -1,0 +1,18 @@
+img {
+    width: 100%;
+}
+@media screen and (min-width: 700px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .kasse-2, .kasse-3 {
+        width: 49.5%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .kasse-1, .kasse-2, .kasse-3 {
+        width: 33%;
+    }
+}
